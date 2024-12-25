@@ -1,2 +1,9 @@
 # pdf-bookmark-autogen
-Generate pdf bookmarks automatically
+
+功能：识别标题并自动为 PDF 文件生成书签
+
+使用步骤：
+- 选择 PDF 文件及标题格式类型，并确定（可通过下拉框选择，或正则表达式）
+- 识别文件内的标题，并给用户确认（可删除误识别的标题）
+- 添加书签，并生成新文件
+- 完成
