@@ -1,9 +1,26 @@
 # pdf-bookmark-autogen
 
-功能：识别标题并自动为 PDF 文件生成书签
 
-使用步骤：
-- 选择 PDF 文件及标题格式类型，并确定（可通过下拉框选择，或正则表达式）
-- 识别文件内的标题，并给用户确认（可删除误识别的标题）
-- 添加书签，并生成新文件
-- 完成
+
+## 依赖
+
+- Python 3.10
+
+
+
+## 开发使用说明
+```bash
+# Clone the repository
+git clone https://github.com/pfugwtg/pdf-bookmark-autogen.git
+cd pdf-bookmark-autogen
+
+# Create & activate virtual environment
+python -m venv myenv
+.\myenv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run
+python main.py
+```
